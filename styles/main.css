@@ -1,5 +1,6 @@
 :root {
     --just-white: #FFFFFF;
+    --off-white: #FAF8F7;
     --soft-orange: #FFE9D4;
     --warm-black: #201E1C;
     --grey: #757575;
@@ -67,3 +68,30 @@ header img{
     line-height: 1.8rem;
 }
 
+.header--title-container .header--button{
+    position: absolute;
+    left: calc(50% - 115px);
+    top: 270px;
+    display: block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    background-color: var(--just-white);
+    box-shadow: 0px 4px 8px 0px #59491E29;
+    border: none;
+    border-radius: 4px;
+    color: var(--warm-black);
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 18.23px;
+}
+
+.header--button span{
+    display: inline-block;
+    width: 13px;
+    height: 9px;
+    margin-left: 10px;
+    background-image: url('../assets/icons/keyboard_arrow_down.svg');
+    background-position: center;
+}
