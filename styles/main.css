@@ -99,7 +99,7 @@ header img{
 main{
     width: 100%;
     height: auto;
-    background-color: var(--off-white);
+    background-color: var(--just-white);
 }
 
 .main-exchange-container{
@@ -115,4 +115,31 @@ main{
     min-width: 288px;
     max-width: 900px;
     margin: 0 auto;
+}
+
+.main-exchange-container .background-img{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url("../assets/img/Bitcoin.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-exchange-container h2{
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+}
+
+.main-exchange-container p{
+    margin-bottom: 30px;
+    color: var(--grey);
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
 }
